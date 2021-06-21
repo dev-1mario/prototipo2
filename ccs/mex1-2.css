@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #e6e6e6;
+}
+header, .principal,footer{
+	width: 90%;
+	margin: 20px auto;
+	max-width: 1000px;
+}
+header nav{
+	background: #528fd5;
+	overflow: hidden;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	display: block;
+	padding: 10px 20px;
+	color: orange;
+	text-decoration: none; 
+}
+header nav ul li a:hover{
+	background: purple;
+	cursor: zoom-in;
+}
+.principal .Articulos{
+	width: 68.5%;
+	float: left;
+	margin-left: 1.5%;
+}
+aside{
+	width: 30%;
+	background: red;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.pricipal .Articulos article{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: orange;
+}
+footer{
+font-size: 30px;
+text-align: center;
+background: blue;
+clear: both;
+font-family: 'Zhi Mang Xing', cursive;
+
+}
+div{
+	width: 20%;
+	margin:40%;
+	padding: 35px;
+}
+.principal .Aticulos article h2 span .icon-xbox
